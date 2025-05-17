@@ -8,15 +8,34 @@ body {
 }
 
 header {
-    background-color: #0a2b40; /* Dark blue - adjust as needed */
+    background-image: url('imagens/your-header-background.jpg'); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the header area */
+    background-position: center; /* Centers the image */
     color: #fff;
-    padding: 1em 0;
+    padding: 2em 0; /* Adjust padding as needed */
     text-align: center;
+    position: relative; /* Needed if you add an overlay */
+}
+
+/* Optional: Add a semi-transparent overlay if the image makes text hard to read */
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(10, 43, 64, 0.5); /* Your dark blue with 50% opacity */
+    z-index: 1;
 }
 
 header h1 {
     margin: 0;
     padding-bottom: 0.5em;
+    position: relative; /* To make sure h1 is above the overlay */
+    z-index: 2;
+    font-size: 2.8em;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7); /* Stronger shadow for readability on image */
 }
 
 nav ul {
