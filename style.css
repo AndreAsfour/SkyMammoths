@@ -131,3 +131,6 @@ main img {
     margin-top: 1.5em;  /* Adiciona um espaço acima da imagem */
     margin-bottom: 1.5em; /* Adiciona um espaço abaixo da imagem */
 }
+.center{
+    text-align: center;
+}
