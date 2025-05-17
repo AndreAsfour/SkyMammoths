@@ -134,3 +134,8 @@ main img {
 .center{
     text-align: center;
 }
+.imagem-inicial{
+
+    background-image: "imagens/grupobandeira.png";
+}
+
