@@ -1,0 +1,116 @@
+/* style.css */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #0a2b40; /* Dark blue - adjust as needed */
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    padding-bottom: 0.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #1a4a6f; /* Medium blue */
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block; /* Changed from inline to inline-block */
+    margin: 0; /* Remove default margins */
+}
+
+nav ul li a {
+    display: block; /* Make the whole area clickable */
+    color: #fff;
+    text-decoration: none;
+    padding: 1em 1.5em; /* Add padding */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+nav ul li a:hover, nav ul li a.active {
+    background-color: #2a6a9f; /* Lighter blue on hover/active */
+}
+
+main {
+    max-width: 960px;
+    margin: 2em auto;
+    padding: 2em;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px; /* Slightly rounded corners */
+}
+
+h2, h3 {
+    color: #1a4a6f;
+}
+
+.image-placeholder {
+    width: 100%;
+    height: 250px; /* Adjust height as needed */
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    font-style: italic;
+    margin: 1.5em 0;
+    border-radius: 4px; /* Slightly rounded corners for placeholders */
+    text-align: center;
+}
+
+ul.action-list {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+ul.action-list li {
+  margin-bottom: 0.8em;
+}
+
+
+.contact-links a {
+    display: block;
+    margin-bottom: 0.8em;
+    color: #0a2b40;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-links a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 2em;
+    padding: 1em;
+    background-color: #ddd;
+    color: #333;
+    font-size: 0.9em;
+}
+
+
+main img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do container 'main' */
+    height: auto;    /* Mantém a proporção da imagem ao ajustar a largura */
+    display: block;  /* Evita espaços extras abaixo da imagem e facilita a centralização (opcional) */
+    margin-left: auto; /* Centraliza a imagem se ela for menor que o container */
+    margin-right: auto;/* Centraliza a imagem se ela for menor que o container */
+    border-radius: 4px; /* Mantém os cantos arredondados como no placeholder */
+    margin-top: 1.5em;  /* Adiciona um espaço acima da imagem */
+    margin-bottom: 1.5em; /* Adiciona um espaço abaixo da imagem */
+}
