@@ -159,8 +159,10 @@ main img {
     text-align: center;
 }
 .imagem-inicial{
-height: 1000px;
+height: 300px;
     background-image:url(../SkyMammoths/imagens/grupobandeira.png);
+    background-position: center;
+    
 }
 
 
