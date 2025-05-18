@@ -99,7 +99,7 @@ h2, h3 {
 }
 
 .image-placeholder {
-    width: 100%;
+    width: 50%;
     height: 250px; 
     background-color: #ddd;
     display: flex;
