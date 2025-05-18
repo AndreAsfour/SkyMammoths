@@ -14,6 +14,7 @@ header {
     padding: 2em 0; 
     text-align: center;
     position: relative; 
+    
 }
 
 header::before {
@@ -134,12 +135,12 @@ main img {
 .center{
     text-align: center;
 }
-.imagem-inicial{
-height: 20px;
-    background-image:url(../SkyMammoths/imagens/grupobandeira.png);
-    background-position: center;
-    
+.imagem-inicial{ 
+ height: 200px;
+
 }
+    
+
 
 
 
