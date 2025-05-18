@@ -14,8 +14,7 @@ header {
     padding: 2em 0; 
     text-align: center;
     position: relative; 
-    
-}
+    }
 
 header::before {
     content: "";
@@ -137,7 +136,6 @@ main img {
 }
 .imagem-inicial{ 
  height: 200px;
-
 }
     
 
